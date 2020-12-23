@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
-import ResumePage from './pages/ResumePage';
 
 class App extends React.Component {
 
@@ -21,14 +20,39 @@ class App extends React.Component {
         { title: 'Home', path: '/' },
         { title: 'Projects', path: '/projects' },
         { title: 'Contact', path: '/contact' },
-        { title: 'Resume', path: '/resume' }
+        { title: 'Resume',}
       ],
       home: {
-        title: 'My Portfolio',
+        title: 'Alfred Zhuang',
         subTitle: 'About me',
       },
       projects: {
         title: 'My projects',
+        zoomin: {
+          title: 'Zoomin\' Discord Bot (Javascript)',
+          subTitle: '',
+          text: '',
+        },
+        lookingForGroup: {
+          title: 'Looking For Group (React)',
+          subTitle: '',
+          text: '',
+        },
+        twitterTracker: {
+          title: 'Trieuloo Twitter Tracker (Javascript)',
+          subTitle: '',
+          text: '',
+        },
+        dragonfistFitness: {
+          title: 'Dragonfist Fitness (Dart/Flutter)',
+          subTitle: '',
+          text: '',
+        },
+        valuableVocabulary: {
+          title: 'Valuable Vocabulary (Java)',
+          subTitle: '',
+          text: '',
+        },
       },
       contact: {
         title: 'Let\'s Talk',
@@ -49,15 +73,13 @@ class App extends React.Component {
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/projects">Projects</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
-                <Link className="nav-link" to="/resume">Resume</Link>
+                <a target="_blank" href="/resume.pdf" className="nav-link">Resume</a>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
-
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle}/>} />
-          <Route path="/projects" exact render={() => <ProjectsPage title={this.state.home.title}/>} />
-          <Route path="/contact" exact render={() => <ContactPage title={this.state.home.title}/>} />
-          <Route path="/resume" exact render={() => <ResumePage title={this.state.home.title}/>} />
+          <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title}/>} />
+          <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title}/>} />
 
           <Footer/>
 

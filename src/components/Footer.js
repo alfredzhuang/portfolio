@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import NoteIcon from '@material-ui/icons/Note';
+import EmailIcon from '@material-ui/icons/Email';
 
 function Footer() {
 
@@ -16,14 +16,14 @@ function Footer() {
                         Alfred Zhuang
                     </Col>
                     <Col className="justify-content-center" md={1}>
-                        <a class="icon" target="_blank" href="https://github.com/alfredzhuang">
-                            <GitHubIcon className="footer-icon"/>
-                        </a>
                         <a class="icon" target="_blank" href="https://www.linkedin.com/in/alfred-zhuang/">
                             <LinkedInIcon className="footer-icon"/>
                         </a>
-                        <a class="icon" target="_blank" href="https://docs.google.com/document/d/1saRbasPG8gsJBcBTazm-aJlUJvYRniBrN8qb5jJzEak/edit?usp=sharing">
-                            <NoteIcon className="footer-icon"/>
+                        <a class="icon" target="_blank" href="https://github.com/alfredzhuang">
+                            <GitHubIcon className="footer-icon"/>
+                        </a>
+                        <a class="icon" target="_blank" href="mailto:alfredzhuang1234@gmail.com">
+                            <EmailIcon className="footer-icon"/>
                         </a>
                     </Col> 
                     <Col className ="p-0 d-flex justify-content-end" md={3}>
