@@ -14,7 +14,7 @@ function ProjectsPage(props) {
                     <a href="https://github.com/alfredzhuang/zoomin" class = "image" target = "_blank">
                         <img src="/images/zoomin.jpg" alt = ""/>
                         <div className = "description">
-                            <h4>Zoomin</h4>
+                            <h4>{props.zoomin.title}</h4>
                             <p>My project</p>
                         </div>
                     </a>
@@ -23,7 +23,7 @@ function ProjectsPage(props) {
                     <a href="https://github.com/alfredzhuang/LookingForGroup" class = "image" target = "_blank">
                         <img src="/images/lookingforgrp.jpg" alt = ""/>
                         <div className = "description">
-                            <h4>Looking For Group</h4>
+                            <h4>{props.lookingForGroup.title}</h4>
                             <p>My project</p>
                         </div>
                     </a>
@@ -32,7 +32,7 @@ function ProjectsPage(props) {
                     <a href="https://github.com/andreidimaano/TrieulooTwitterTracker" class = "image" target = "_blank">
                         <img src="/images/trieuloo.jpg" alt = ""/>
                         <div className = "description">
-                            <h4>Trieuloo Twitter Tracker</h4>
+                            <h4>{props.twitterTracker.title}</h4>
                             <p>My project</p>
                         </div>
                     </a>
@@ -43,7 +43,7 @@ function ProjectsPage(props) {
                         <img src="/images/dragonfistfitness2.jpg" alt = ""/>
                         <img src="/images/dragonfistfitness3.jpg" alt = ""/>
                         <div className = "description">
-                            <h4>Dragonfist Fitness</h4>
+                            <h4>{props.dragonfistFitness.title}</h4>
                             <p>My project</p>
                         </div>
                     </a>
@@ -52,7 +52,7 @@ function ProjectsPage(props) {
                     <a href="https://github.com/alfredzhuang/valuable-vocabulary" class = "image" target = "_blank">
                         <img src="/images/zoomin.jpg" alt = ""/>
                         <div className = "description">
-                            <h4>Valuable Vocabulary</h4>
+                            <h4>{props.valuableVocabulary.title}</h4>
                             <p>My project</p>
                         </div>
                     </a>
