@@ -29,17 +29,17 @@ class App extends React.Component {
       projects: {
         title: 'My projects',
         zoomin: {
-          title: 'Zoomin\' Discord Bot (Javascript)',
+          title: 'Zoomin\' Discord Bot (Node.js)',
           subTitle: '',
           text: '',
         },
         lookingForGroup: {
-          title: 'Looking For Group (React)',
+          title: 'Looking For Group (React.js)',
           subTitle: '',
           text: '',
         },
         twitterTracker: {
-          title: 'Trieuloo Twitter Tracker (Javascript)',
+          title: 'Trieuloo Twitter Tracker (Node.js)',
           subTitle: '',
           text: '',
         },
@@ -49,7 +49,7 @@ class App extends React.Component {
           text: '',
         },
         valuableVocabulary: {
-          title: 'Valuable Vocabulary (Java)',
+          title: 'Valuable Vocabulary (Java/Swing GUI)',
           subTitle: '',
           text: '',
         },

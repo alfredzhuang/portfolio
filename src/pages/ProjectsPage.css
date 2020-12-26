@@ -1,0 +1,49 @@
+.heading {
+    padding-top: 20px;
+    text-align: center;
+}
+.project {
+    margin: 0px auto;
+    padding: 50px 0px;
+    max-width: 1500px;
+}
+
+.project article {
+    text-align: center;
+    border-top: solid 3px #f4f4f4;
+    margin-bottom: 2.25em;
+    padding-top: 2.25em;
+}
+
+.project article:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.project article .image {
+    display: inline-block;
+    vertical-align: middle;
+    width: 48%;
+}
+
+.project article .image img {
+    width: 85%;
+}
+
+.project article .image1 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 48%;
+}
+
+.project article .image1 img {
+    width: 30%;
+    margin-left: 15px;
+}
+
+.project article .description {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%
+}

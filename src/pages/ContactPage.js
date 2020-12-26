@@ -9,9 +9,8 @@ function ContactPage(props) {
                 <h2>{props.title}</h2>
             </div>
             <div className = "text">
-                <h3></h3>
+                <h3>Feel free to contact me at any time.</h3>
             </div>
-            <div className = "button"></div>
         </div>
     );
 
