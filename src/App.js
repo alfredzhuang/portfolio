@@ -24,7 +24,22 @@ class App extends React.Component {
       ],
       home: {
         title: 'Alfred Zhuang',
-        subTitle: 'About me',
+        subTitle: 'An Aspiring Software Engineer',
+        about: {
+          subTitle1: 'About me',
+          subText1: 'I\'m a 19 year old Computer Science Major at Cal Poly Pomona. In 2018, I started out coding by learning Java. Since then, I\'ve expanded my pool of coding languages with Javascript and Flutter. I hope to become a SWE to put my skills to the test.',
+          subText2: 'I enjoy designing and creating projects, with the goal of bringing joy and convenience for others with every application I create.',
+          subText3: 'During quarantine, on top of building my skills in coding, I also picked up a few hobbies that include: working out, cutting hair, and cooking.',
+        },
+        skills: {
+          subTitle1: 'My Skills',
+          subText1: 'I have experience using the following technologies:',
+          java: 'Java',
+          javascript: 'Javascript',
+          react: 'React.js',
+          node: 'Node.js',
+          flutter: 'Flutter/Dart'
+        }
       },
       projects: {
         title: 'My projects',
@@ -81,7 +96,7 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
-          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle}/>} />
+          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} about={this.state.home.about} skills={this.state.home.skills}/>} />
           <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} zoomin={this.state.projects.zoomin} lookingForGroup={this.state.projects.lookingForGroup} twitterTracker={this.state.projects.twitterTracker} dragonfistFitness={this.state.projects.dragonfistFitness} valuableVocabulary={this.state.projects.valuableVocabulary}/>} />
           <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title}/>} />
 
