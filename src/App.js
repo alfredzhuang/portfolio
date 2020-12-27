@@ -29,7 +29,7 @@ class App extends React.Component {
           subTitle1: 'About me',
           subText1: 'I\'m a 19 year old Computer Science Major at Cal Poly Pomona. In 2018, I started out coding by learning Java. Since then, I\'ve expanded my pool of coding languages with Javascript and Flutter. I hope to become a SWE to put my skills to the test.',
           subText2: 'I enjoy designing and creating projects, with the goal of bringing joy and convenience for others with every application I create.',
-          subText3: 'During quarantine, on top of building my skills in coding, I also picked up a few hobbies that include: working out, cutting hair, and cooking.',
+          subText3: 'During quarantine, while also building my skills in coding, I also picked up a few hobbies that include: working out, barbering, and cooking.',
         },
         skills: {
           subTitle1: 'My Skills',
@@ -80,7 +80,7 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
 
-          <Navbar className = "border-bottom" bg="transparent" expand="lg">
+          <Navbar className = "navbar navbar-dark fixed-top" bg="transparent" expand="lg">
             <Navbar.Brand>
               <Link to="/">
               <img className = "img" src="/favicon-32x32.png" alt = "AZ img"/>

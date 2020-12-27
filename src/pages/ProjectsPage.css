@@ -1,3 +1,7 @@
+.projects {
+    background-color: #3AAFA9;
+}
+
 .heading {
     padding-top: 20px;
     text-align: center;
@@ -10,7 +14,7 @@
 
 .project article {
     text-align: center;
-    border-top: solid 3px #f4f4f4;
+    border-top: solid 3px #393e46;
     margin-bottom: 2.25em;
     padding-top: 2.25em;
 }

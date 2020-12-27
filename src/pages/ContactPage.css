@@ -1,8 +1,9 @@
 .contact {
+    background-color: #3AAFA9;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     margin: 0px auto;
-    min-height: 87vh;
+    min-height: 94vh;
 }
