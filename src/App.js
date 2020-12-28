@@ -94,9 +94,7 @@ class App extends React.Component {
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/projects">Projects</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
-                <Form inline>
-                  <Button variant="outline-info" target="_blank" href="/resume.pdf" rel="noreferrer">Resume</Button>
-                </Form>
+                <Button variant="outline-info" target="_blank" href="/resume.pdf" rel="noreferrer">Resume</Button>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

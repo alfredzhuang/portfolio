@@ -7,3 +7,11 @@
     margin: 0px auto;
     min-height: 94vh;
 }
+
+.contactme:hover {
+    color: #17a2b8;
+}
+
+.contactme:link {
+    color: #17a2b8;
+}
