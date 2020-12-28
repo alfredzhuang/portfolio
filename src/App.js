@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import './App.css';
 
 import Footer from './components/Footer';
@@ -92,7 +94,9 @@ class App extends React.Component {
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/projects">Projects</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
-                <a target="_blank" href="/resume.pdf" className="nav-link">Resume</a>
+                <Form inline>
+                  <Button variant="outline-info" target="_blank" href="/resume.pdf" rel="noreferrer">Resume</Button>
+                </Form>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

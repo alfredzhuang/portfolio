@@ -1,3 +1,27 @@
 .App {
   text-align: center;
 }
+
+h1 {
+  color: #80ACBD;
+}
+
+h2 {
+  color: #80ACBD;
+}
+
+h3 {
+  color: #80ACBD;
+}
+
+h4 {
+  color: #80ACBD;
+}
+
+p {
+  color: lightgray;
+}
+
+li {
+  color: lightgray;
+}
