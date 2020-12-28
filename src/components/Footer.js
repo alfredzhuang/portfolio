@@ -9,13 +9,13 @@ function Footer() {
     return (
         <footer className="footer">
             <div className = "container">
-                <a class="icon" target="_blank" href="https://www.linkedin.com/in/alfred-zhuang/">
+                <a class="icon" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/alfred-zhuang/">
                     <LinkedInIcon className="footer-icon"/>
                 </a>
-                <a class="icon" target="_blank" href="https://github.com/alfredzhuang">
+                <a class="icon" rel="noreferrer" target="_blank" href="https://github.com/alfredzhuang">
                     <GitHubIcon className="footer-icon"/>
                 </a>
-                <a class="icon" target="_blank" href="mailto:alfredzhuang1234@gmail.com">
+                <a class="icon" rel="noreferrer" target="_blank" href="mailto:alfredzhuang1234@gmail.com">
                     <EmailIcon className="footer-icon"/>
                 </a>
             </div>

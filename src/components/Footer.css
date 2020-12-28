@@ -4,5 +4,14 @@
 }
 
 .footer {
-    background-color: #3AAFA9;
+    background-color: #00587a;
+}
+
+.icon {
+    color: #9DD7D4;
+    
+}
+
+.icon:hover {
+    color: #CEEBE9;
 }

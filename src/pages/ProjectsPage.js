@@ -11,7 +11,7 @@ function ProjectsPage(props) {
             </div>
             <div className = "project">
                 <article>
-                    <a href="https://github.com/alfredzhuang/zoomin" class = "image" target = "_blank">
+                    <a href="https://github.com/alfredzhuang/zoomin" class = "image" target = "_blank" rel="noreferrer">
                         <img src="/images/zoomin.jpg" alt = ""/>
                     </a>
                     <div className = "description">
@@ -20,7 +20,7 @@ function ProjectsPage(props) {
                         </div>
                 </article>
                 <article>
-                    <a href="https://github.com/alfredzhuang/LookingForGroup" class = "image" target = "_blank">
+                    <a href="https://github.com/alfredzhuang/LookingForGroup" class = "image" target = "_blank" rel="noreferrer">
                         <img src="/images/lookingforgrp.jpg" alt = ""/>
                     </a>
                     <div className = "description">
@@ -29,7 +29,7 @@ function ProjectsPage(props) {
                         </div>
                 </article>
                 <article>
-                    <a href="https://github.com/andreidimaano/TrieulooTwitterTracker" class = "image" target = "_blank">
+                    <a href="https://github.com/andreidimaano/TrieulooTwitterTracker" class = "image" target = "_blank" rel="noreferrer">
                         <img src="/images/trieuloo.jpg" alt = ""/>
                     </a>
                     <div className = "description">
@@ -38,7 +38,7 @@ function ProjectsPage(props) {
                         </div>
                 </article>
                 <article>
-                    <a href="https://github.com/alfredzhuang/dragon-fist-fitness" class = "image1" target = "_blank">
+                    <a href="https://github.com/alfredzhuang/dragon-fist-fitness" class = "image1" target = "_blank" rel="noreferrer">
                         <img src="/images/dragonfistfitness1.jpg" alt = ""/>
                         <img src="/images/dragonfistfitness2.jpg" alt = ""/>
                         <img src="/images/dragonfistfitness3.jpg" alt = ""/>
@@ -49,7 +49,7 @@ function ProjectsPage(props) {
                         </div>
                 </article>
                 <article>
-                    <a href="https://github.com/alfredzhuang/valuable-vocabulary" class = "image" target = "_blank">
+                    <a href="https://github.com/alfredzhuang/valuable-vocabulary" class = "image" target = "_blank" rel="noreferrer">
                         <img src="/images/valuableVocabulary.jpg" alt = ""/>
                     </a>
                     <div className = "description">

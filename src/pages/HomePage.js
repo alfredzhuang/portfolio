@@ -1,7 +1,7 @@
 import React from 'react';
 import './HomePage.css';
 import { FaReact, FaNodeJs, FaJava } from "react-icons/fa";
-import { SiJavascript, SiFlutter, SiSkillshare } from "react-icons/si"
+import { SiJavascript, SiFlutter} from "react-icons/si"
 
 function HomePage(props) {
 
