@@ -35,7 +35,7 @@
     max-width: 1000px;
 }
 
-.skills-container h3 {
+.skills-container {
     text-align: center;
 }
 
@@ -50,4 +50,8 @@ ul.skills li {
     position: relative;
     vertical-align: top;
     width: 48%
+}
+
+.skills-icon {
+    font-size: 25px;
 }

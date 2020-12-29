@@ -26,11 +26,11 @@ function HomePage(props) {
                 <h3>{props.skills.subTitle1}</h3>
                 <p>{props.skills.subText1}</p>
                 <ul class="skills">
-                    <li><FaJava/> {props.skills.java}</li>
-                    <li><SiJavascript/> {props.skills.javascript}</li>
-                    <li><FaReact/> {props.skills.react}</li>
-                    <li><FaNodeJs/> {props.skills.node}</li>
-                    <li><SiFlutter/> {props.skills.flutter}</li>
+                    <li><FaJava className="skills-icon"/> {props.skills.java}</li>
+                    <li><SiJavascript className="skills-icon"/> {props.skills.javascript}</li>
+                    <li><FaReact className="skills-icon"/> {props.skills.react}</li>
+                    <li><FaNodeJs className="skills-icon"/> {props.skills.node}</li>
+                    <li><SiFlutter className="skills-icon"/> {props.skills.flutter}</li>
                 </ul>
              </div>
         </div>
