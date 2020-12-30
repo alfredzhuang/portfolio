@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomePage.css';
+import Button from 'react-bootstrap/Button';
 import { FaReact, FaNodeJs, FaJava } from "react-icons/fa";
 import { SiJavascript, SiFlutter} from "react-icons/si"
 
@@ -10,6 +11,7 @@ function HomePage(props) {
             <div className="headline-container">
                 <h1 className ="heading">{props.title}</h1>
                 <h2>{props.subTitle}</h2>
+                <Button variant="outline-info" target="_blank" href="/resume.pdf" rel="noreferrer">Resume</Button>
             </div>
             <div className="about-container">
                 <div className = "headline-img">

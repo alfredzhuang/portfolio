@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Button from 'react-bootstrap/Button';
 import './App.css';
 
 import Footer from './components/Footer';
@@ -46,28 +45,23 @@ class App extends React.Component {
         title: 'My projects',
         zoomin: {
           title: 'Zoomin\' Discord Bot (Node.js)',
-          subTitle: '',
-          text: '',
+          text: 'A Discord Bot that reminds students when they have a class, or any upcoming tests and quizzes, or any homework due',
         },
         lookingForGroup: {
           title: 'Looking For Group (React.js)',
-          subTitle: '',
-          text: '',
+          text: 'A website that aims to bring users together, allowing people to join or create their own groups',
         },
         twitterTracker: {
           title: 'Trieuloo Twitter Tracker (Node.js)',
-          subTitle: '',
-          text: '',
+          text: 'A twitter bot for a top 1% player of League of Legends that tweets out whenever they have finished a game, with a little twist in the message',
         },
         dragonfistFitness: {
           title: 'Dragonfist Fitness (Dart/Flutter)',
-          subTitle: '',
-          text: '',
+          text: 'An android application that gives workouts for users based upon what body part they would like to exercise',
         },
         valuableVocabulary: {
           title: 'Valuable Vocabulary (Java/Swing GUI)',
-          subTitle: '',
-          text: '',
+          text: 'My first ever personal project. A random word generator that uses the WordNik API to retrieve a word and its definition for the user',
         },
       },
       contact: {
@@ -93,7 +87,6 @@ class App extends React.Component {
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/projects">Projects</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
-                <Button variant="outline-info" target="_blank" href="/resume.pdf" rel="noreferrer">Resume</Button>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
