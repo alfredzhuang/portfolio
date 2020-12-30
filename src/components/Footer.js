@@ -1,8 +1,7 @@
 import React from 'react';
 import './Footer.css'
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import EmailIcon from '@material-ui/icons/Email';
+import { SiLinkedin, SiGithub } from 'react-icons/si';
+import { MdEmail } from 'react-icons/md';
 
 function Footer() {
 
@@ -10,13 +9,13 @@ function Footer() {
         <footer className="footer">
             <div className = "container">
                 <a class="icon" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/alfred-zhuang/">
-                    <LinkedInIcon className="footer-icon"/>
-                </a>
-                <a class="icon" rel="noreferrer" target="_blank" href="https://github.com/alfredzhuang">
-                    <GitHubIcon className="footer-icon"/>
+                    <SiLinkedin className="footer-icon1"/>
                 </a>
                 <a class="icon" rel="noreferrer" target="_blank" href="mailto:alfredzhuang1234@gmail.com">
-                    <EmailIcon className="footer-icon"/>
+                    <MdEmail className="footer-icon2"/>
+                </a>
+                <a class="icon" rel="noreferrer" target="_blank" href="https://github.com/alfredzhuang">
+                    <SiGithub className="footer-icon3"/>
                 </a>
             </div>
         </footer>

@@ -1,5 +1,5 @@
 .container {
-    padding: 15px;
+    padding: 13px;
     text-align: center;
 }
 
@@ -9,6 +9,19 @@
 
 .icon {
     color: #80ACBD;
+    padding: 0 1px;
+}
+
+.footer-icon1 {
+    font-size: 22px;
+}
+
+.footer-icon2 {
+    font-size: 30px;
+}
+
+.footer-icon3 {
+    font-size: 25px;
 }
 
 .icon:hover {
