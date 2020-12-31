@@ -15,7 +15,7 @@ function HomePage(props) {
             </div>
             <div className="about-container">
                 <div className = "headline-img">
-                    <img className = "img" src="/images/Alfred.jpg" alt = "Alfred img"/>
+                    <img className = "img" src="/images/Alfred.jpg" alt = "Alfred image"/>
                 </div>
                 <div className="profile">
                     <h2>{props.about.subTitle1}</h2>

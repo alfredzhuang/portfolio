@@ -83,7 +83,7 @@ class App extends React.Component {
           <Navbar className = "navbar navbar-dark fixed-top" bg="transparent" expand="lg">
             <Navbar.Brand>
               <Link to="/">
-              <img className = "img" src="/favicon-32x32.png" alt = "AZ img"/>
+              <img className = "img" src="/favicon-32x32.png" alt = "AZ image"/>
               </Link>
             </Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>

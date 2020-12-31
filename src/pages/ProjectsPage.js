@@ -12,7 +12,7 @@ function ProjectsPage(props) {
             <div className = "project">
                 <article>
                     <a href="https://github.com/alfredzhuang/zoomin" class = "image" target = "_blank" rel="noreferrer">
-                        <img src="/images/zoomin.jpg" alt = ""/>
+                        <img src="/images/zoomin.jpg" alt = "zoomin image"/>
                     </a>
                     <div className = "description">
                             <h4>{props.zoomin.title}</h4>
@@ -22,7 +22,7 @@ function ProjectsPage(props) {
                 </article>
                 <article>
                     <a href="https://github.com/alfredzhuang/LookingForGroup" class = "image" target = "_blank" rel="noreferrer">
-                        <img src="/images/lookingforgrp.jpg" alt = ""/>
+                        <img src="/images/lookingforgrp.jpg" alt = "Looking For Group image"/>
                     </a>
                     <div className = "description">
                             <h4>{props.lookingForGroup.title}</h4>
@@ -32,7 +32,7 @@ function ProjectsPage(props) {
                 </article>
                 <article>
                     <a href="https://github.com/andreidimaano/TrieulooTwitterTracker" class = "image" target = "_blank" rel="noreferrer">
-                        <img src="/images/trieuloo.jpg" alt = ""/>
+                        <img src="/images/trieuloo.jpg" alt = "Trieuloo Twitter Tracker image"/>
                     </a>
                     <div className = "description">
                             <h4>{props.twitterTracker.title}</h4>
@@ -42,9 +42,9 @@ function ProjectsPage(props) {
                 </article>
                 <article>
                     <a href="https://github.com/alfredzhuang/dragon-fist-fitness" class = "image1" target = "_blank" rel="noreferrer">
-                        <img src="/images/dragonfistfitness1.jpg" alt = ""/>
-                        <img src="/images/dragonfistfitness2.jpg" alt = ""/>
-                        <img src="/images/dragonfistfitness3.jpg" alt = ""/>
+                        <img src="/images/dragonfistfitness1.jpg" alt = "Dragonfist Fitness image 1"/>
+                        <img src="/images/dragonfistfitness2.jpg" alt = "Dragonfist Fitness image 2"/>
+                        <img src="/images/dragonfistfitness3.jpg" alt = "Dragonfist Fitness image 3"/>
                     </a>
                     <div className = "description">
                             <h4>{props.dragonfistFitness.title}</h4>
@@ -54,7 +54,7 @@ function ProjectsPage(props) {
                 </article>
                 <article>
                     <a href="https://github.com/alfredzhuang/valuable-vocabulary" class = "image" target = "_blank" rel="noreferrer">
-                        <img src="/images/valuableVocabulary.jpg" alt = ""/>
+                        <img src="/images/valuableVocabulary.jpg" alt = "Valuable Vocabulary image"/>
                     </a>
                     <div className = "description">
                             <h4>{props.valuableVocabulary.title}</h4>
