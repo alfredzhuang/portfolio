@@ -11,7 +11,7 @@ function HomePage(props) {
             <div className="headline-container">
                 <h1 className ="heading">{props.title}</h1>
                 <h2>{props.subTitle}</h2>
-                <Button variant="outline-info" target="_blank" href="/resume.pdf" rel="noreferrer">Resume</Button>
+                <Button size="lg" variant="outline-info" target="_blank" href="/resume.pdf" rel="noreferrer">Resume</Button>
             </div>
             <div className="about-container">
                 <div className = "headline-img">

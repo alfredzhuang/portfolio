@@ -16,6 +16,7 @@ function ProjectsPage(props) {
                     </a>
                     <div className = "description">
                             <h4>{props.zoomin.title}</h4>
+                            <h6>{props.zoomin.subTitle}</h6>
                             <p>{props.zoomin.text}</p>
                         </div>
                 </article>
@@ -25,6 +26,7 @@ function ProjectsPage(props) {
                     </a>
                     <div className = "description">
                             <h4>{props.lookingForGroup.title}</h4>
+                            <h6>{props.lookingForGroup.subTitle}</h6>
                             <p>{props.lookingForGroup.text}</p>
                         </div>
                 </article>
@@ -34,6 +36,7 @@ function ProjectsPage(props) {
                     </a>
                     <div className = "description">
                             <h4>{props.twitterTracker.title}</h4>
+                            <h6>{props.twitterTracker.subTitle}</h6>
                             <p>{props.twitterTracker.text}</p>
                         </div>
                 </article>
@@ -45,6 +48,7 @@ function ProjectsPage(props) {
                     </a>
                     <div className = "description">
                             <h4>{props.dragonfistFitness.title}</h4>
+                            <h6>{props.dragonfistFitness.subTitle}</h6>
                             <p>{props.dragonfistFitness.text}</p>
                         </div>
                 </article>
@@ -54,6 +58,7 @@ function ProjectsPage(props) {
                     </a>
                     <div className = "description">
                             <h4>{props.valuableVocabulary.title}</h4>
+                            <h6>{props.valuableVocabulary.subTitle}</h6>
                             <p>{props.valuableVocabulary.text}</p>
                         </div>
                 </article>

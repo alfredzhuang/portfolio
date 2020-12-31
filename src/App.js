@@ -45,23 +45,28 @@ class App extends React.Component {
         title: 'My projects',
         zoomin: {
           title: 'Zoomin\' Discord Bot (Node.js)',
+          subTitle: 'Implemented using Discord.js, cron, and nedb',
           text: 'A Discord Bot that reminds students when they have a class, or any upcoming tests and quizzes, or any homework due',
         },
         lookingForGroup: {
           title: 'Looking For Group (React.js)',
+          subTitle: 'Coded with Google Firebase, Google Firestore, and deployed on Google Firebase hosting',
           text: 'A website that aims to bring users together, allowing people to join or create their own groups',
         },
         twitterTracker: {
           title: 'Trieuloo Twitter Tracker (Node.js)',
+          subTitle: 'Deployed with Amazon AWS EC2 through FTP, coded using the twit API, nedb, and the Riot Games API',
           text: 'A twitter bot for a top 1% player of League of Legends that tweets out whenever they have finished a game, with a little twist in the message',
         },
         dragonfistFitness: {
           title: 'Dragonfist Fitness (Dart/Flutter)',
+          subTitle: 'Implemented using Google Firebase and Google Firestore',
           text: 'An android application that gives workouts for users based upon what body part they would like to exercise',
         },
         valuableVocabulary: {
           title: 'Valuable Vocabulary (Java/Swing GUI)',
-          text: 'My first ever personal project. A random word generator that uses the WordNik API to retrieve a word and its definition for the user',
+          subTitle: 'Coded using the Wordnik API',
+          text: 'My first ever personal project. A random word generator that retrieves a word and its definition for the user',
         },
       },
       contact: {
