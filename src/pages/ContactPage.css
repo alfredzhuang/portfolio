@@ -8,6 +8,10 @@
     min-height: 94vh;
 }
 
+.text {
+    text-align: center;
+}
+
 .contactme:hover {
     color: #17a2b8;
 }

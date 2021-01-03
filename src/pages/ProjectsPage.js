@@ -1,15 +1,16 @@
 import React from 'react';
 import './ProjectsPage.css';
+import { motion } from 'framer-motion';
 
 function ProjectsPage(props) {
 
     return(
         <div className = "projects">
-            <div className = "heading">
+            <motion.div className = "heading" initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
                 <h2>{props.title}</h2>
                 <p2></p2>
-            </div>
-            <div className = "project">
+            </motion.div>
+            <motion.div className = "project" initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
                 <article>
                     <a href="https://github.com/alfredzhuang/zoomin" class = "image" target = "_blank" rel="noreferrer">
                         <img src="/images/zoomin.jpg" alt = "zoomin image"/>
@@ -62,7 +63,7 @@ function ProjectsPage(props) {
                             <p>{props.valuableVocabulary.text}</p>
                         </div>
                 </article>
-            </div>
+            </motion.div>
         </div>
     );
 
