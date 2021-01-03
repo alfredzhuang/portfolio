@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
+import BarLoader from "react-spinners/BarLoader";
 
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
@@ -11,10 +12,10 @@ import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
 
 class App extends React.Component {
-
   constructor(props) {
     super(props);
     this.state = {
+      loading: true,
       title: 'Alfred Zhuang',
       headerLinks: [
         { title: 'Home', path: '/' },
@@ -75,8 +76,22 @@ class App extends React.Component {
     }
   }
 
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({loading: false});
+     }, 2000);
+  }
+
   render() {
     return (
+      this.state.loading ?
+      <div className="loader">
+        <BarLoader color={"#80ACBD"} loading={this.state.loading}/>
+        <div className="loading-text">
+          <h6>Loading...</h6>
+        </div>
+      </div>
+      :
       <Router>
         <Container className="p-0" fluid={true}>
 
