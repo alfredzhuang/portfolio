@@ -6,6 +6,19 @@ h1,h2,h3,h4 {
   color: #80ACBD;
 }
 
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+h6 {
+  color: #cbf1f5;
+}
+
+h2,h3,h4,h5,h6 {
+  font-family: 'Chivo', sans-serif;
+}
+
 p, li {
   color: lightgray;
+  font-family: 'Open Sans', sans-serif;
 }
