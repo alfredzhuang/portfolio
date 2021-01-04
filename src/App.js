@@ -86,6 +86,9 @@ class App extends React.Component {
     return (
       this.state.loading ?
       <div className="loader">
+        <div className="loading-text">
+          <h6>Welcome to Alfred Zhuang's Portolio!</h6>
+        </div>
         <BarLoader color={"#80ACBD"} loading={this.state.loading}/>
         <div className="loading-text">
           <h6>Loading...</h6>

@@ -14,7 +14,7 @@
 }
 
 .project article {
-    text-align: center;
+
     border-top: solid 3px #393e46;
     margin-bottom: 2.25rem;
     padding-top: 2.25rem;
@@ -28,6 +28,7 @@
 .project article .image {
     display: inline-block;
     vertical-align: middle;
+    text-align: center;
     width: 48%;
 }
 
@@ -43,11 +44,10 @@
 
 .project article .image1 img {
     width: 30%;
-    margin-left: 15px;
+    margin-left: 17.5px;
 }
 
 .project article .description {
-    text-align: center;
     display: inline-block;
     vertical-align: middle;
     width: 50%
