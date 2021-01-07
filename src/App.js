@@ -39,7 +39,9 @@ class App extends React.Component {
           javascript: 'Javascript',
           react: 'React.js',
           node: 'Node.js',
-          flutter: 'Flutter/Dart'
+          flutter: 'Flutter/Dart',
+          html: 'HTML',
+          css: 'CSS'
         }
       },
       projects: {

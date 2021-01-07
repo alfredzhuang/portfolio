@@ -2,7 +2,7 @@ import React from 'react';
 import './HomePage.css';
 import Button from 'react-bootstrap/Button';
 import { FaReact, FaNodeJs, FaJava } from "react-icons/fa";
-import { SiJavascript, SiFlutter} from "react-icons/si";
+import { SiJavascript, SiFlutter, SiHtml5, SiCss3 } from "react-icons/si";
 import { motion } from "framer-motion";
 
 function HomePage(props) {
@@ -29,11 +29,13 @@ function HomePage(props) {
                 <h3>{props.skills.subTitle1}</h3>
                 <p>{props.skills.subText1}</p>
                 <ul class="skills">
-                    <li><FaJava className="skills-icon"/> {props.skills.java}</li>
-                    <li><SiJavascript className="skills-icon"/> {props.skills.javascript}</li>
-                    <li><FaReact className="skills-icon"/> {props.skills.react}</li>
-                    <li><FaNodeJs className="skills-icon"/> {props.skills.node}</li>
-                    <li><SiFlutter className="skills-icon"/> {props.skills.flutter}</li>
+                    <li><FaJava className="skills-icon" /> {props.skills.java}</li>
+                    <li><SiHtml5 className="skills-icon" /> {props.skills.html}</li>
+                    <li><SiCss3 className="skills-icon" /> {props.skills.css}</li>
+                    <li><SiJavascript className="skills-icon" /> {props.skills.javascript}</li>
+                    <li><FaReact className="skills-icon" /> {props.skills.react}</li>
+                    <li><FaNodeJs className="skills-icon" /> {props.skills.node}</li>
+                    <li><SiFlutter className="skills-icon" /> {props.skills.flutter}</li>
                 </ul>
              </motion.div>
         </div>
