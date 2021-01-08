@@ -24,41 +24,65 @@
     padding-top: 0;
 }
 
-.project article .image {
+.image {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
-    width: 48%;
+    width: 50%;
 }
 
-.project article .image img {
+.image img {
     width: 85%;
     opacity: 0.85;
     border-radius: 10px;
 }
 
-.project article .image img:hover {
+.image img:hover {
     opacity: 1.0;
 }
 
-.project article .image1 {
+.image1 {
     display: inline-block;
     vertical-align: middle;
-    width: 48%;
+    width: 50%;
 }
 
-.project article .image1 img {
+.image1 img {
     width: 30%;
     margin-left: 17.5px;
     opacity: 0.85;
 }
 
-.project article .image1 img:hover {
+.image1 img:hover {
     opacity: 1.0;
 }
 
-.project article .description {
+.description {
     display: inline-block;
     vertical-align: middle;
     width: 50%
+}
+
+@media (max-width: 1060px) {
+    .image1 img {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 736px) {
+    .image, .image1 {
+        display: block;
+        width: 100%;
+    }
+
+    .image1 img {
+        margin-left: 10px;
+    }
+
+    .description {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        padding: 0px 10px;
+    }
 }
