@@ -1,0 +1,49 @@
+.about {
+    background-color: #00587a;
+    padding-top: 24px;
+}
+
+.about-container {
+    margin: 0px auto;
+    padding: 50px 0px;
+    max-width: 1000px;
+}
+
+.headline-img img {
+    float: left;
+    display: block;
+    margin-right: 35px;
+    width: 32%;
+    border-radius: 10px;
+}
+
+.profile p {
+    padding: 5px 0px;
+}
+
+.skills-container {
+    margin: 30px auto 0;
+    padding: 50px 0px;
+    max-width: 1000px;
+}
+
+.skills-container {
+    text-align: center;
+}
+
+ul.skills {
+    padding: 15px 0px;
+}
+
+ul.skills li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 0 1.6875rem 0;
+    position: relative;
+    vertical-align: top;
+    width: 30%;
+}
+
+.skills-icon {
+    font-size: 25px;
+}
