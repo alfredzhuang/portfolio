@@ -6,7 +6,7 @@ function ProjectsPage(props) {
 
     return(
         <div className = "projects">
-            <motion.div className = "heading" initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
+            <motion.div className = "project-heading" initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
                 <h2>{props.title}</h2>
                 <p2></p2>
             </motion.div>

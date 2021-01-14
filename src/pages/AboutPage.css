@@ -1,11 +1,11 @@
 .about {
     background-color: #00587a;
-    padding-top: 24px;
+    padding-top: 38px;
 }
 
 .about-container {
     margin: 0px auto;
-    padding: 50px 0px;
+    padding: 75px 0px;
     max-width: 1000px;
 }
 
@@ -13,7 +13,7 @@
     float: left;
     display: block;
     margin-right: 35px;
-    width: 32%;
+    width: 20rem;
     border-radius: 10px;
 }
 
@@ -23,7 +23,7 @@
 
 .skills-container {
     margin: 30px auto 0;
-    padding: 50px 0px;
+    padding: 25px 0px;
     max-width: 1000px;
 }
 
