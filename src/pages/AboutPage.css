@@ -1,49 +1,62 @@
 .about {
-    background-color: #00587a;
-    padding-top: 38px;
+  background-color: #00587a;
+  padding-top: 38px;
 }
 
 .about-container {
-    margin: 0px auto;
-    padding: 75px 0px;
-    max-width: 1000px;
+  margin: 0px auto;
+  padding: 75px 0px;
+  max-width: 1000px;
 }
 
 .headline-img img {
-    float: left;
-    display: block;
-    margin-right: 35px;
-    width: 20rem;
-    border-radius: 10px;
+  float: left;
+  display: block;
+  margin-right: 35px;
+  width: 20rem;
+  border-radius: 10px;
 }
 
 .profile p {
-    padding: 5px 0px;
+  padding: 5px 0px;
 }
 
 .skills-container {
-    margin: 30px auto 0;
-    padding: 25px 0px;
-    max-width: 1000px;
+  margin: 30px auto 0;
+  padding: 25px 0px;
+  max-width: 1000px;
 }
 
 .skills-container {
-    text-align: center;
+  text-align: center;
 }
 
 ul.skills {
-    padding: 15px 0px;
+  padding: 15px 0px;
 }
 
 ul.skills li {
-    text-decoration: none;
-    display: inline-block;
-    margin: 0 0 1.6875rem 0;
-    position: relative;
-    vertical-align: top;
-    width: 30%;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 0 1.6875rem 0;
+  position: relative;
+  vertical-align: top;
+  width: 30%;
 }
 
 .skills-icon {
-    font-size: 25px;
+  font-size: 25px;
+}
+
+@media (max-width: 815px) {
+  .headline-img img {
+    float: none;
+    margin: 0 auto 15px;
+  }
+  .about-container {
+    text-align: center;
+  }
+  .profile {
+    padding: 0 35px;
+  }
 }
