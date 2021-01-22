@@ -49,7 +49,12 @@ class App extends React.Component {
         }
       },
       projects: {
-        title: 'My projects',
+        title: 'Projects I\'ve Worked On',
+        codingJournal: {
+          title: 'Coding Journal (Node.js)',
+          subTitle: 'mongoDB | Express | EJS | Filepond | Bootstrap',
+          text: 'A website that allows users to keep track of their learnings and progress in coding',
+        },
         zoomin: {
           title: 'Zoomin\' Discord Bot (Node.js)',
           subTitle: 'Discord.js | cron | mongoDB',
@@ -122,7 +127,7 @@ class App extends React.Component {
           </Navbar>
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle1={this.state.home.subTitle1} subTitle2={this.state.home.subTitle2} />} />
           <Route path="/about" exact render={() => <AboutPage about={this.state.about.about} skills={this.state.about.skills} />} />
-          <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} zoomin={this.state.projects.zoomin} lookingForGroup={this.state.projects.lookingForGroup} twitterTracker={this.state.projects.twitterTracker} dragonfistFitness={this.state.projects.dragonfistFitness} valuableVocabulary={this.state.projects.valuableVocabulary} />} />
+          <Route path="/projects" exact render={() => <ProjectsPage title={this.state.projects.title} codingJournal = {this.state.projects.codingJournal} zoomin={this.state.projects.zoomin} lookingForGroup={this.state.projects.lookingForGroup} twitterTracker={this.state.projects.twitterTracker} dragonfistFitness={this.state.projects.dragonfistFitness} valuableVocabulary={this.state.projects.valuableVocabulary} />} />
           <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} />} />
 
           <Footer/>

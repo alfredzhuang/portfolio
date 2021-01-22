@@ -1,21 +1,31 @@
 .home {
-    background-color: #00587a;
+  background-color: #00587a;
 }
 
 .headline-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 0px auto;
-    height: 94vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px auto;
+  height: 94vh;
 }
 
 h2 {
-    padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .btn {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
+.button-icon {
+    display: inline-block;
+    padding-right: 6px;
+    padding-bottom: 4px;
+}
+
+.button-content {
+    position: relative;
+    top: 1px;
+}

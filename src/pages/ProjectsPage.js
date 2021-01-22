@@ -10,7 +10,17 @@ function ProjectsPage(props) {
                 <h2>{props.title}</h2>
                 <p2></p2>
             </motion.div>
-            <motion.div className = "project" initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
+            <motion.div className="project" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+                <article>
+                    <a href="https://github.com/alfredzhuang/coding-journal" class = "image" target = "_blank" rel="noreferrer">
+                        <img src="/images/codingjournal.jpg" alt = "Zoomin image"/>
+                    </a>
+                    <div className = "description">
+                            <h4>{props.codingJournal.title}</h4>
+                            <h6>{props.codingJournal.subTitle}</h6>
+                            <p>{props.codingJournal.text}</p>
+                        </div>
+                </article>
                 <article>
                     <a href="https://github.com/alfredzhuang/zoomin" class = "image" target = "_blank" rel="noreferrer">
                         <img src="/images/zoomin.jpg" alt = "zoomin image"/>
@@ -42,7 +52,7 @@ function ProjectsPage(props) {
                         </div>
                 </article>
                 <article>
-                    <a href="https://github.com/alfredzhuang/dragon-fist-fitness" class = "image1" target = "_blank" rel="noreferrer">
+                    <a href="https://github.com/alfredzhuang/dragonfist-fitness" class = "image1" target = "_blank" rel="noreferrer">
                         <img src="/images/dragonfistfitness1.jpg" alt = "Dragonfist Fitness image 1"/>
                         <img src="/images/dragonfistfitness2.jpg" alt = "Dragonfist Fitness image 2"/>
                         <img src="/images/dragonfistfitness3.jpg" alt = "Dragonfist Fitness image 3"/>
