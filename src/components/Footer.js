@@ -6,7 +6,7 @@ import { MdEmail } from 'react-icons/md';
 function Footer() {
 
     return (
-        <footer className="footer">
+        <footer className="footer fixed-bottom" bg="transparent">
             <div className = "container">
                 <a class="icon" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/alfred-zhuang/">
                     <SiLinkedin className="footer-icon1"/>
