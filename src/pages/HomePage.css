@@ -11,6 +11,18 @@
   height: 100vh;
 }
 
+.top-subheading {
+  font-size: 2rem;
+}
+
+.heading {
+  font-size: 3.5rem;
+}
+
+.bottom-subheading {
+  font-size: 2.6rem;
+}
+
 h2 {
   padding-bottom: 15px;
 }

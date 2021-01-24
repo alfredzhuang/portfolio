@@ -25,9 +25,9 @@ class App extends React.Component {
         { title: 'Resume',}
       ],
       home: {
-        subTitle1: 'Hi! I\'m',
+        subTitle1: 'Hi, I\'m',
         title: 'Alfred Zhuang',
-        subTitle2: 'A Computer Science Major',
+        subTitle2: 'Computer Science Major',
       },
       about: {
         about: {

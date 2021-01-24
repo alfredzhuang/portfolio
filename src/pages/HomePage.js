@@ -13,12 +13,12 @@ function HomePage(props) {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
       >
-        <h3>{props.subTitle1}</h3>
+        <h3 class="top-subheading">{props.subTitle1}</h3>
         <h1 className="heading">{props.title}</h1>
-        <h2>{props.subTitle2}</h2>
+        <h2 class="bottom-subheading">{props.subTitle2}</h2>
         <Button
           className="btn btn-info"
-          size="lg"
+          size="md"
           target="_blank"
           href="/resume.pdf"
           rel="noreferrer"
