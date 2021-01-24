@@ -1,7 +1,14 @@
 import React from "react";
 import "./AboutPage.css";
 import { FaReact, FaNodeJs, FaJava } from "react-icons/fa";
-import { SiJavascript, SiFlutter, SiHtml5, SiCss3 } from "react-icons/si";
+import {
+  SiJavascript,
+  SiFlutter,
+  SiHtml5,
+  SiCss3,
+  SiGraphql,
+  SiMongodb,
+} from "react-icons/si";
 import { motion } from "framer-motion";
 
 function AboutPage(props) {
@@ -14,7 +21,7 @@ function AboutPage(props) {
         exit={{ opacity: 0 }}
       >
         <div className="headline-img">
-          <img className="img" src="/images/Alfred.jpg" alt="Alfred image" />
+          <img className="img" src="/images/Alfred.jpg" alt="Profile Picture" />
         </div>
         <div className="profile">
           <h2>{props.about.subTitle1}</h2>
@@ -49,6 +56,12 @@ function AboutPage(props) {
           </li>
           <li>
             <FaNodeJs className="skills-icon" /> {props.skills.node}
+          </li>
+          <li>
+            <SiGraphql className="skills-icon" /> {props.skills.graphql}
+          </li>
+          <li>
+            <SiMongodb className="skills-icon" /> {props.skills.mongodb}
           </li>
           <li>
             <SiFlutter className="skills-icon" /> {props.skills.flutter}

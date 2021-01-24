@@ -1,7 +1,7 @@
 .about {
   background-color: #00587a;
-  padding-top: 45px;
-  height: 100vh;
+  padding-top: 35px;
+  height: 100%;
 }
 
 .about-container {
@@ -18,12 +18,16 @@
   border-radius: 10px;
 }
 
+.profile {
+  padding-top: 20px;
+}
+
 .profile p {
-  padding: 5px 0px;
+  padding: 10px 0px;
 }
 
 .skills-container {
-  margin: 18px auto 0;
+  margin: 34px auto 0;
   padding: 25px 0px;
   max-width: 1000px;
 }
@@ -39,7 +43,7 @@ ul.skills {
 ul.skills li {
   text-decoration: none;
   display: inline-block;
-  margin: 0 0 1.6875rem 0;
+  margin: 0 0 1.7rem 0;
   position: relative;
   vertical-align: top;
   width: 30%;
