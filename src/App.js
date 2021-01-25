@@ -37,7 +37,7 @@ class App extends React.Component {
           subText2:
             "I enjoy designing and creating projects, with the goal of bringing joy and convenience for others in every application that I create.",
           subText3:
-            "Aside from coding, in my free time, I recently began pursuing hobbies such as: working out, playing videogames, cutting hair, and cooking.",
+            "Aside from coding, in my free time, I recently began pursuing hobbies such as working out, playing videogames, cutting hair, and cooking.",
         },
         skills: {
           subTitle1: "My Skills",
