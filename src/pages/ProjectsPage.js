@@ -114,7 +114,7 @@ function ProjectsPage(props) {
             rel="noreferrer"
           >
             <img
-              src="/images/valuableVocabulary.jpg"
+              src="/images/valuablevocabulary.jpg"
               alt="Valuable Vocabulary"
             />
           </a>
