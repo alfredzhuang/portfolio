@@ -96,8 +96,8 @@ class App extends React.Component {
       },
       contact: {
         title: "Let's Talk!",
-        subtitle1: "Feel free to",
-        subtitle2: " contact me",
+        subtitle1: "Feel free to ",
+        subtitle2: "contact me",
         subtitle3: "for any inquiries or opportunities!",
       },
     };
