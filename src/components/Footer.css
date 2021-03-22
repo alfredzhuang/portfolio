@@ -1,29 +1,29 @@
 .container {
-    padding: 13px;
-    text-align: center;
+  padding: 13px;
+  text-align: center;
 }
 
 .footer {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .icon {
-    color: #80ACBD;
-    padding: 0 1px;
+  color: #80acbd;
+  padding: 0 1px;
 }
 
 .footer-icon1 {
-    font-size: 22px;
+  font-size: 23px;
 }
 
 .footer-icon2 {
-    font-size: 30px;
+  font-size: 27px;
 }
 
 .footer-icon3 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .icon:hover {
-    color: #CEEBE9;
+  color: #ceebe9;
 }
