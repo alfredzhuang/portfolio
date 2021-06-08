@@ -3,7 +3,7 @@ import "./AboutPage.css";
 import { FaReact, FaNodeJs, FaJava } from "react-icons/fa";
 import {
   SiJavascript,
-  SiFlutter,
+  SiPython,
   SiHtml5,
   SiCss3,
   SiGraphql,
@@ -58,13 +58,13 @@ function AboutPage(props) {
             <FaNodeJs className="skills-icon" /> {props.skills.node}
           </li>
           <li>
+            <SiPython className="skills-icon" /> {props.skills.python}
+          </li>
+          <li>
             <SiGraphql className="skills-icon" /> {props.skills.graphql}
           </li>
           <li>
             <SiMongodb className="skills-icon" /> {props.skills.mongodb}
-          </li>
-          <li>
-            <SiFlutter className="skills-icon" /> {props.skills.flutter}
           </li>
         </ul>
       </motion.div>
