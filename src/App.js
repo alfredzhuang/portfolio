@@ -32,7 +32,7 @@ class App extends React.Component {
         about: {
           subTitle1: "About me",
           subText1:
-            "I'm a 19 year old Computer Science Major at Cal Poly Pomona. In 2018, I started out coding by learning Java. Since then, I've expanded my pool of coding languages with Javascript and Flutter. " +
+            "I'm a 19 year old Computer Science Major at Cal Poly Pomona. In 2018, I started out coding by learning Java. Since then, I've expanded my pool of coding languages with languages such as Javascript and Python. " +
             "Currently, I am learning full stack web development and hope to one day become a SWE to put my skills to the test.",
           subText2:
             "I enjoy designing and creating projects, with the goal of bringing joy and convenience for others in every application that I create.",
@@ -46,7 +46,7 @@ class App extends React.Component {
           javascript: "Javascript",
           react: "React.js",
           node: "Node.js",
-          flutter: "Flutter/Dart",
+          python: "Python",
           html: "HTML",
           css: "CSS",
           graphql: "GraphQL",
@@ -55,43 +55,54 @@ class App extends React.Component {
       },
       projects: {
         title: "Projects I've Worked On",
+        recipeRandomizer: {
+          title: "Recipe Randomizer (Python)",
+          subTitle:
+            "Flask | Selenium Webdriver | FPDF | Bootstrap | TheMealDB API",
+          text: "A website that chooses a random recipe for the user and automates the process of adding items to the cart",
+        },
+        schoolE: {
+          title: "School-E (HTML/CSS/Javascript)",
+          subTitle: "MongoDB | Express | Fetch API | Chrome API | DOM | OAuth",
+          text: "A google chrome extension that allows users to store links, emails, and access a to-do list for their courses",
+        },
+        bobaful: {
+          title: "Bobaful (Typescript)",
+          subTitle:
+            "GraphQL | MongoDB | Urql | React | Chakra UI | Nextjs | Apollo | Express",
+          text: "A web application project that was created as an ordering website for Bobaful",
+        },
         codingJournal: {
           title: "Coding Journal (Node.js)",
-          subTitle: "mongoDB | Express | EJS | Filepond | Bootstrap",
-          text:
-            "A website that allows users to keep track of their learnings and progress in coding",
+          subTitle: "MongoDB | Express | EJS | Filepond | Bootstrap",
+          text: "A website that allows users to keep track of their learnings and progress in coding",
         },
         zoomin: {
           title: "Zoomin' Discord Bot (Node.js)",
-          subTitle: "Discord.js | cron | mongoDB",
-          text:
-            "A Discord Bot that reminds students when they have a class, or any upcoming tests and quizzes, or any homework due",
+          subTitle: "Discord.js | cron | MongoDB",
+          text: "A Discord Bot that reminds students when they have a class, or any upcoming tests and quizzes, or any homework due",
         },
         lookingForGroup: {
           title: "Looking For Group (React.js) - Built at IvyHacks 2020",
           subTitle:
             "Google Firebase | Google Firestore | Google Firebase hosting",
-          text:
-            "A website that aims to bring users together, allowing people to join or create their own groups",
+          text: "A website that aims to bring users together, allowing people to join or create their own groups",
         },
         twitterTracker: {
           title:
             "Trieuloo Twitter Tracker (Node.js) - Built at SillyHacks 2020 (Won Hacking With Amazon AWS)",
           subTitle: "Amazon AWS EC2 | twit API | nedb | Riot Games API",
-          text:
-            "A twitter bot created for a top 1% player of a game called League of Legends that tweets out whenever they have finished a game",
+          text: "A twitter bot created for a top 1% player of a game called League of Legends that tweets out whenever they have finished a game",
         },
         dragonfistFitness: {
           title: "Dragonfist Fitness (Dart/Flutter)",
           subTitle: "Google Firebase | Google Firestore",
-          text:
-            "An android application that gives workouts for users based upon what body part they would like to exercise",
+          text: "An android application that gives workouts for users based upon what body part they would like to exercise",
         },
         valuableVocabulary: {
           title: "Valuable Vocabulary (Java/Swing GUI)",
           subTitle: "Wordnik API",
-          text:
-            "My first ever personal project. A random word generator that retrieves a word and its definition for the user",
+          text: "My first ever personal project. A random word generator that retrieves a word and its definition for the user",
         },
       },
       contact: {
@@ -188,6 +199,9 @@ class App extends React.Component {
                 twitterTracker={this.state.projects.twitterTracker}
                 dragonfistFitness={this.state.projects.dragonfistFitness}
                 valuableVocabulary={this.state.projects.valuableVocabulary}
+                bobaful={this.state.projects.bobaful}
+                schoolE={this.state.projects.schoolE}
+                recipeRandomizer={this.state.projects.recipeRandomizer}
               />
             )}
           />
