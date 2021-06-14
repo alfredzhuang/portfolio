@@ -37,21 +37,6 @@ function ProjectsPage(props) {
         </article>
         <article>
           <a
-            href="https://github.com/andreidimaano/Bobaful"
-            class="image"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src="/images/bobaful.jpg" alt="Bobaful" />
-          </a>
-          <div className="description">
-            <h4>{props.bobaful.title}</h4>
-            <h6>{props.bobaful.subTitle}</h6>
-            <p>{props.bobaful.text}</p>
-          </div>
-        </article>
-        <article>
-          <a
             href="https://github.com/alfredzhuang/school-e"
             class="image"
             target="_blank"
@@ -63,6 +48,21 @@ function ProjectsPage(props) {
             <h4>{props.schoolE.title}</h4>
             <h6>{props.schoolE.subTitle}</h6>
             <p>{props.schoolE.text}</p>
+          </div>
+        </article>
+        <article>
+          <a
+            href="https://github.com/andreidimaano/Bobaful"
+            class="image"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="/images/bobaful.jpg" alt="Bobaful" />
+          </a>
+          <div className="description">
+            <h4>{props.bobaful.title}</h4>
+            <h6>{props.bobaful.subTitle}</h6>
+            <p>{props.bobaful.text}</p>
           </div>
         </article>
         <article>

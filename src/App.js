@@ -32,7 +32,7 @@ class App extends React.Component {
         about: {
           subTitle1: "About me",
           subText1:
-            "I'm a 19 year old Computer Science Major at Cal Poly Pomona. In 2018, I started out coding by learning Java. Since then, I've expanded my pool of coding languages with Javascript and Flutter. " +
+            "I'm a 19 year old Computer Science Major at Cal Poly Pomona. In 2018, I started out coding by learning Java. Since then, I've expanded my pool of coding languages with languages such as Javascript and Python. " +
             "Currently, I am learning full stack web development and hope to one day become a SWE to put my skills to the test.",
           subText2:
             "I enjoy designing and creating projects, with the goal of bringing joy and convenience for others in every application that I create.",
